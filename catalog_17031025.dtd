@@ -1,0 +1,36 @@
+<!ELEMENT company (companyData,ceo,departments)>
+<!ELEMENT companyData (imgs,Name,address,telephone,website)>
+
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+<!ELEMENT website (#PCDATA)>
+
+<!ELEMENT imgs (#PCDATA)>
+<!ATTLIST imgs class CDATA #REQUIRED>
+
+<!ELEMENT ceo (imgs,NAME,Phone,email)>
+<!ELEMENT NAME (#PCDATA)>
+<!ATTLIST NAME type (CEO) #REQUIRED>
+<!ELEMENT Phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+<!ELEMENT departments (department+)>
+
+<!ELEMENT department (dname,employee+)>
+
+<!ELEMENT dname (#PCDATA)>
+
+<!ELEMENT employee (imgs,name,phone,salary,add?,Email?)>
+<!ATTLIST employee empID ID #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST phone type (mobile | work) #IMPLIED>
+
+<!ELEMENT salary (#PCDATA)>
+<!ELEMENT add (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+
+

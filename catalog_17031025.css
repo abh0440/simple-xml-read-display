@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+@-webkit-keyframes bounceInLeft {
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+  
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(-3000px, 0, 0);
+      transform: translate3d(-3000px, 0, 0);
+    }
+  
+    60% {
+      opacity: 1;
+      -webkit-transform: translate3d(25px, 0, 0);
+      transform: translate3d(25px, 0, 0);
+    }
+  
+    75% {
+      -webkit-transform: translate3d(-10px, 0, 0);
+      transform: translate3d(-10px, 0, 0);
+    }
+  
+    90% {
+      -webkit-transform: translate3d(5px, 0, 0);
+      transform: translate3d(5px, 0, 0);
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes bounceInLeft {
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+  
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(-3000px, 0, 0);
+      transform: translate3d(-3000px, 0, 0);
+    }
+  
+    60% {
+      opacity: 1;
+      -webkit-transform: translate3d(25px, 0, 0);
+      transform: translate3d(25px, 0, 0);
+    }
+  
+    75% {
+      -webkit-transform: translate3d(-10px, 0, 0);
+      transform: translate3d(-10px, 0, 0);
+    }
+  
+    90% {
+      -webkit-transform: translate3d(5px, 0, 0);
+      transform: translate3d(5px, 0, 0);
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  @-webkit-keyframes rubberBand {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+      transform: scale3d(1.25, 0.75, 1);
+    }
+  
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+      transform: scale3d(0.75, 1.25, 1);
+    }
+  
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+      transform: scale3d(1.15, 0.85, 1);
+    }
+  
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+      transform: scale3d(0.95, 1.05, 1);
+    }
+  
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+      transform: scale3d(1.05, 0.95, 1);
+    }
+  
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  @keyframes rubberBand {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+      transform: scale3d(1.25, 0.75, 1);
+    }
+  
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+      transform: scale3d(0.75, 1.25, 1);
+    }
+  
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+      transform: scale3d(1.15, 0.85, 1);
+    }
+  
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+      transform: scale3d(0.95, 1.05, 1);
+    }
+  
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+      transform: scale3d(1.05, 0.95, 1);
+    }
+  
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+
+company {
+    padding: 10pt;
+}
+
+ceo{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #DACFE5;
+    width: 350px;
+    display: block;
+    padding: 10pt;
+    border: 1px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-bottom: 3%;
+    overflow: hidden;
+}
+
+Name {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 140%; 
+    display: block;
+    text-align: center;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    -webkit-animation-name: bounceInLeft;
+    animation-name: bounceInLeft;
+}
+
+dname {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 140%; 
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background-color: #4b0082;
+    color: azure;
+}
+
+address{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px; 
+    display: block;
+    text-align: center;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    -webkit-animation-name: bounceInLeft;
+    animation-name: bounceInLeft;
+}
+
+telephone {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px; 
+    display: block;
+    text-align: center;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    -webkit-animation-name: bounceInLeft;
+    animation-name: bounceInLeft;
+}
+
+website {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px; 
+    display: block;
+    margin-bottom: 5%;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    -webkit-animation-name: bounceInLeft;
+    animation-name: bounceInLeft;
+}
+
+employee {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #DACFE5;
+  display: inline-block;
+  width: 350px;
+  padding: 10pt;
+  border: 1px solid #000000;
+  margin-left: 90px;
+  margin-right: auto;
+  text-align: left;
+  margin-bottom: 3%;
+  overflow: hidden;
+}
+
+NAME{
+    color: rgb(5, 20, 15);
+    font-weight: bold;
+    font-size: 140%;
+    display: block;
+    margin-bottom: 3%;
+}
+NAME[type]::after {content: " (" attr(type) ")"}    
+
+name{
+    color: rgb(0, 128, 128);
+    font-weight: bold;
+    font-size: 140%;
+    display: block;
+    margin-bottom: 3%;
+}
+
+phone,Phone,salary,add,email,Email {
+    display: list-item;
+    list-style-type: disc;
+}
+
+phone {
+    color: rgb(5, 20, 15);
+    font-size: 12px;
+    margin-bottom: 3%;
+}
+phone::before {content: "Phone: "}
+
+Phone {
+  color: rgb(5, 20, 15);
+  font-size: 12px;
+  margin-bottom: 3%;
+}
+Phone::before {content: "Phone: "}
+
+salary {
+    color: rgb(134, 6, 6);
+    font-size: 12px;
+    margin-bottom: 3%;
+}
+salary::before {content: "Salary: "}
+
+add {
+    color: rgb(5, 20, 15);
+    font-size: 12px;
+    margin-bottom: 3%;
+}
+add::before {content: "Address: "}
+
+email {
+    color: rgb(5, 20, 15);
+    font-size: 12px;
+    margin-bottom: 3%;
+}
+email::before {content: "Email: "}
+
+Email {
+    color: rgb(3, 95, 182);
+    font-size: 12px;
+    margin-bottom: 3%;
+}
+Email::before {content: "Email: "}
+
+imgs {
+    float: left;
+    display: block;
+    background-size: 150px, 150px;
+    background-repeat: no-repeat;
+    width: 175px; height: 150px;
+}
+
+imgs[class="logo"] {
+    float: left;
+    background-image: url(imgs/puzzle.png); 
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 75px, 75px;
+    width: 75px; height: 75px;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: rubberBand;
+    animation-name: rubberBand;
+}
+
+imgs[class="ceo"] {
+    background-image: url(imgs/nick.png); 
+}
+
+imgs[class="emp1"] {
+    background-image: url(imgs/tony.png); 
+}
+
+imgs[class="emp2"] {
+    background-image: url(imgs/barry.png); 
+}
+
+imgs[class="emp3"] {
+    background-image: url(imgs/bruce.png); 
+}
+
+imgs[class="emp4"] {
+    background-image: url(imgs/steve.png); 
+}
+
+imgs[class="emp8"] {
+    background-image: url(imgs/natasha.png); 
+}
+
+imgs[class="emp9"] {
+    background-image: url(imgs/bwayne.png); 
+}
+
+imgs[class="emp6"] {
+    background-image: url(imgs/brie.png); 
+}
+
+imgs[class="emp5"] {
+    background-image: url(imgs/thor.png); 
+}
+
+imgs[class="emp7"] {
+    background-image: url(imgs/clint.png); 
+}
+
+imgs[class="emp10"] {
+    background-image: url(imgs/clark.png); 
+}
+
+imgs[class="emp11"] {
+    background-image: url(imgs/diana.png); 
+}
+
+imgs[class="emp12"] {
+    background-image: url(imgs/arthur.png); 
+}
+
+imgs[class="emp13"] {
+    background-image: url(imgs/wolverine.png); 
+}
+
+imgs[class="emp14"] {
+    background-image: url(imgs/wade.png); 
+}
+
+imgs[class="emp15"] {
+    background-image: url(imgs/loki.png); 
+}

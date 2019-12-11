@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/css' href='catalog_17031025.css'?>
+<!DOCTYPE company SYSTEM 'catalog_17031025.dtd'>
+<company>
+  <companyData>
+    <imgs class="logo"/>
+    <Name>Puzzles Enterprise</Name>
+    <address>Kathmandu, Nepal</address>
+    <telephone>(125) 865-966-877</telephone>
+    <website>www.puzent.com</website>
+  </companyData>
+  <ceo>
+    <imgs class="ceo"/>
+    <NAME type="CEO">Jules Winnfield</NAME>
+    <Phone>(277) 654-987-123</Phone>
+    <email>winn.field@gmail.com</email>
+  </ceo>
+  <departments>
+    <department>
+      <dname>Research and Development</dname>
+      <employee empID="emp1">
+        <imgs class="emp1"/>
+        <name>Tony Stark</name>
+        <phone type="mobile">(800) 592-654-987</phone>
+        <salary>60,000</salary>
+        <add>Kathmandu, Nepal</add>
+        <Email>tony.stark@gmail.com</Email>
+      </employee>
+      <employee empID="emp10">
+        <imgs class="emp10"/>
+        <name>Clark Kent</name>
+        <phone type="mobile">(800) 999-654-983</phone>
+        <salary>60,000</salary>
+        <add>Maitighar, Nepal</add>
+        <Email>kent.clark@gmail.com</Email>
+      </employee>
+      <employee empID="emp11">
+        <imgs class="emp11"/>
+        <name>Diana Prince</name>
+        <phone type="mobile">(800) 444-654-983</phone>
+        <salary>60,000</salary>
+        <add>Lokanthali, Nepal</add>
+        <Email/>
+      </employee>
+    </department>
+    <department>
+      <dname>Marketing</dname>
+      <employee empID="emp12">
+        <imgs class="emp12"/>
+        <name>Arthur Curry</name>
+        <phone type="mobile">(800) 222-654-983</phone>
+        <salary>60,000</salary>
+        <add>Chunikhel, Nepal</add>
+        <Email/>
+      </employee>
+      <employee empID="emp13">
+        <imgs class="emp13"/>
+        <name>James Howlett</name>
+        <phone type="mobile">(800) 333-654-983</phone>
+        <salary>60,000</salary>
+        <add>Dhulikhel, Nepal</add>
+        <Email/>
+      </employee>
+      <employee empID="emp14">
+        <imgs class="emp14"/>
+        <name>Wade Winston Wilson</name>
+        <phone type="mobile">(800) 111-654-983</phone>
+        <salary>60,000</salary>
+        <add>Boudha, Nepal</add>
+        <Email>dead.poo@gmail.com</Email>
+      </employee>
+    </department>
+    <department>
+      <dname>Human Resource</dname>
+      <employee empID="emp15">
+        <imgs class="emp15"/>
+        <name>Loki Odinson</name>
+        <phone type="mobile">(800) 332-654-983</phone>
+        <salary>60,000</salary>
+        <add>Naikap, Nepal</add>
+        <Email/>
+      </employee>
+      <employee empID="emp2">
+        <imgs class="emp2"/>
+        <name>Barry Allen</name>
+        <phone type="mobile">(800) 592-654-983</phone>
+        <salary>60,000</salary>
+        <add>Bhaktapur, Nepal</add>
+        <Email/>
+      </employee>
+      <employee empID="emp3">
+        <imgs class="emp3"/>
+        <name>Bruce Banner</name>
+        <phone type="mobile">(800) 555-654-983</phone>
+        <salary>60,000</salary>
+        <add>Baneshwor, Nepal</add>
+        <Email/>
+      </employee>
+    </department>
+    <department>
+      <dname>Mobile Development</dname>
+      <employee empID="emp4">
+        <imgs class="emp4"/>
+        <name>Steve Rogers</name>
+        <phone type="mobile">(800) 654-654-983</phone>
+        <salary>60,000</salary>
+        <add>Koteshwor, Nepal</add>
+        <Email>steve.rogers@gmail.com</Email>
+      </employee>
+      <employee empID="emp5">
+        <imgs class="emp5"/>
+        <name>Thor Odinson</name>
+        <phone type="mobile">(800) 585-654-983</phone>
+        <salary>60,000</salary>
+        <add>Kamladi, Nepal</add>
+        <Email/>
+      </employee>
+      <employee empID="emp6">
+        <imgs class="emp6"/>
+        <name>Carol Denvers</name>
+        <phone type="mobile">(800) 666-654-983</phone>
+        <salary>60,000</salary>
+        <add>Lalitpur, Nepal</add>
+        <Email/>
+      </employee>
+    </department>
+    <department>
+      <dname>Web Development</dname>
+      <employee empID="emp7">
+        <imgs class="emp7"/>
+        <name>Clinton Francis Bartonk</name>
+        <phone type="mobile">(800) 987-654-983</phone>
+        <salary>60,000</salary>
+        <add>Durbarmarg, Nepal</add>
+        <Email>clint.hawkeye@gmail.com</Email>
+      </employee>
+      <employee empID="emp8">
+        <imgs class="emp8"/>
+        <name>Natasha Romanoff</name>
+        <phone type="mobile">(800) 777-654-983</phone>
+        <salary>60,000</salary>
+        <add>Putalisadak, Nepal</add>
+        <Email/>
+      </employee>
+      <employee empID="emp9">
+        <imgs class="emp9"/>
+        <name>Bruce Wayne</name>
+        <phone type="mobile">(800) 888-654-983</phone>
+        <salary>60,000</salary>
+        <add>Anamnagar, Nepal</add>
+        <Email/>
+      </employee>
+    </department>
+  </departments>
+</company>
